@@ -1,0 +1,23 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameBoard {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.gameSquare {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
